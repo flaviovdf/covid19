@@ -1,7 +1,8 @@
 # Estimativas de R0 por Estados do Brasil
 
-| [Centro-Oeste] | [Nordeste] | [Norte] | [Sudeste] | [Sul] | [Referências] |
-|----------------|------------|---------|-----------|-------|---------------|
+| [CentroOeste] | [Nordeste] | [Norte] | [Sudeste] | [Sul] | [Referências] |
+|---------------|------------|---------|-----------|-------|---------------|
+- - -
 
 ## Metodologia
 
@@ -17,7 +18,7 @@ Para entender um pouco mais sobre o R0 fiz uma vídeo aula. A mesma está abaixo
 
 Cada gráfico mostra a estimativa do R0 além de um intervalo de credibilidade de 95%. De forma simples, interprete o intervalo como sendo uma faixa de incerteza onde podemos esperar o valor. Sendo o método Bayesiano, o mesmo captura a probabilidade a posteriori do R0 nas amostras geradas.
 
-## Centro-Oeste
+## CentroOeste
 
 ![Distrito Federal](plots/Centro-Oeste/DF.png)
 ![Goiás](plots/Centro-Oeste/GO.png)
