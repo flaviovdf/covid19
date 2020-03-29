@@ -6,7 +6,8 @@
 
 ## Metodologia
 
-Esta página apresenta uma estimativa do número básico de reprodução (R0, pronunciado "R Zero"). O mesmo captura, ou é proporcional ao, número de outras pessoas que um endivido infectado vai contagiar. Um número básico de reprodução **R0=2** indica que uma pessoa infectada deve transmitir a doença para outras duas. Portanto, para conter uma doença é importante fazer com que **R0 < 1**, ou seja, na média a doença não se propaga mais entre indivíduos.
+
+Esta página apresenta uma estimativa do número básico de reprodução (R0, pronunciado "R Zero"). O mesmo captura, ou é proporcional ao, número de outras pessoas que um indivíduo infectado vai contagiar. Um número básico de reprodução **R0=2** indica que uma pessoa infectada deve transmitir a doença para outras duas. Portanto, para conter uma doença é importante fazer com que **R0 < 1**, ou seja, na média a doença não se propaga mais entre pessoas.
 
 Os dados foram gerados pelo [Brasil.IO](https://brasil.io) através de esforço coletivo de interpretação dos relatórios da secretária de saúde de cada estado.
 
@@ -20,43 +21,90 @@ Cada gráfico mostra a estimativa do R0 além de um intervalo de credibilidade d
 
 ## CentroOeste
 
+### Distrito Federal
 ![Distrito Federal](plots/Centro-Oeste/DF.png)
+
+### Goiás
 ![Goiás](plots/Centro-Oeste/GO.png)
+
+### Mato Grosso do Sul
 ![Mato Grosso do Sul](plots/Centro-Oeste/MS.png)
+
+### Mato Grosso
 ![Mato Grosso](plots/Centro-Oeste/DF.png)
 
 ## Nordeste
 
+### Alagoas
 ![Alagoas](plots/Nordeste/AL.png)
+
+### Bahia
 ![Bahia](plots/Nordeste/BA.png)
+
+### Ceará
 ![Ceará](plots/Nordeste/CE.png)
+
+### Maranhão
 ![Maranhão](plots/Nordeste/MA.png)
+
+### Paraíba
 ![Paraíba](plots/Nordeste/PB.png)
+
+### Pernambuco
 ![Pernambuco](plots/Nordeste/PE.png)
+
+### Piaui
 ![Piauí](plots/Nordeste/PI.png)
+
+### Rio Grande do Norte
 ![Rio Grande do Norte](plots/Nordeste/RN.png)
-![Rio Grande do Norte](plots/Nordeste/SE.png)
+
+### Sergipe
+![Sergipe](plots/Nordeste/SE.png)
 
 ## Norte
 
+### Acre
 ![Acre](plots/Norte/AC.png)
+
+### Amazonas
 ![Amazonas](plots/Norte/AM.png)
+
+### Amapá
 ![Amapá](plots/Norte/AP.png)
+
+### Pará
 ![Pará](plots/Norte/PA.png)
+
+### Roraima
 ![Roraima](plots/Norte/RO.png)
+
+### Tocantins
 ![Tocantins](plots/Norte/TO.png)
 
 ## Sudeste
 
+### Espirito Santo
 ![Espirito Santo](plots/Sudeste/ES.png)
+
+### Minas Gerais
 ![Minas Gerais](plots/Sudeste/MG.png)
+
+### Rio de Janeiro
 ![Rio de Janeiro](plots/Sudeste/RJ.png)
+
+### São Paulo
 ![São Paulo](plots/Sudeste/SP.png)
 
 ## Sul
 
+### Paraná
 ![Paraná](plots/Sul/PR.png)
+
+### Rio Grande do Sul
 ![Rio Grande do Sul](plots/Sul/RS.png)
+
+### Santa Catarina
 ![Santa Catarina](plots/Sul/SC.png)
 
 ## Refs
