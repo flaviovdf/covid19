@@ -31,7 +31,7 @@ Cada gráfico mostra a estimativa do R0 além de um intervalo de credibilidade d
 ![Mato Grosso do Sul](plots/Centro-Oeste/MS.png)
 
 ### Mato Grosso
-![Mato Grosso](plots/Centro-Oeste/DF.png)
+![Mato Grosso](plots/Centro-Oeste/MT.png)
 
 ## Nordeste
 
