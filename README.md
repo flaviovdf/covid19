@@ -49,7 +49,7 @@ Cada gráfico mostra a estimativa do R0 além de um intervalo de credibilidade d
 ## Sudeste
 
 ![Espirito Santo](plots/Sudeste/ES.png)
-![Minas Gerais](plots/Sul/Sudeste/MG.png)
+![Minas Gerais](plots/Sudeste/MG.png)
 ![Rio de Janeiro](plots/Sudeste/RJ.png)
 ![São Paulo](plots/Sudeste/SP.png)
 
