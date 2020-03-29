@@ -1,7 +1,7 @@
 # Estimativas de R0 por Estados do Brasil
 
-| [CentroOeste] | [Nordeste] | [Norte] | [Sudeste] | [Sul] | [Referências] |
-|---------------|------------|---------|-----------|-------|---------------|
+| [CentroOeste] | [Nordeste] | [Norte] | [Sudeste] | [Sul] | [Refs] |
+|---------------|------------|---------|-----------|-------|--------|
 - - -
 
 ## Metodologia
@@ -59,9 +59,16 @@ Cada gráfico mostra a estimativa do R0 além de um intervalo de credibilidade d
 ![Rio Grande do Sul](plots/Sul/RS.png)
 ![Santa Catarina](plots/Sul/SC.png)
 
-## Referências
+## Refs
 
 1. Ferretti L, Wymant C, Kendall M et al. Quantifying dynamics of SARS-CoV-2 transmission suggests that epidemic control and avoidance is feasible through instantaneous digital contact tracing. Online First: 2020. doi:https://doi.org/10.1101/2020.03.08.20032946
 1. Ma S, Zhang J, Zeng M, et al. Epidemiological parameters of coronavirus disease 2019: a pooled analysis of publicly reported individual data of 1155 cases from seven countries. Online First: 2020. doi:https://doi.org/doi.org/10.1101/2020.03.21.20040329
 1. Nishiura H, Linton NM, Akhmetzhanov AR. Serial interval of novel coronavirus (2019-nCoV) infections. medRxiv Published Online First: 2020. doi:https://doi.org/10.1101/2020.02.03.20019497
 1. Thompson R, Stockwin J, Gaalen R van et al. Improved inference of time-varying reproduction numbers during infectious disease outbreaks. Epidemics 2019;29:100356. doi:https://doi.org/10.1016/j.epidem.2019.100356
+
+[CentroOeste]: #centrooeste
+[Nordeste]: #nordeste
+[Norte]: #norte
+[Sudeste]: #sudeste
+[Sul]: #sul
+[Refs]: #sul
