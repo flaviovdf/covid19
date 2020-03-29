@@ -5,9 +5,9 @@
 
 ## Metodologia
 
-Esta página apresenta uma estimativa do número básico de reprodução (R0, pronunciado "R Zero"). O mesmo captura, ou é proporcional ao, número de outras pessoas que um indivíduo infectado vai contagiar. Um número básico de reprodução **R0 = 2** indica que uma pessoa infectada deve transmitir a doença para outras duas. Portanto, para conter uma doença é importante fazer com que **R0 < 1**, ou seja, na média a doença não se propaga mais entre pessoas.
+Esta página apresenta uma estimativa do número básico de reprodução (R0, pronunciado "R Zero"). O mesmo captura, ou é proporcional ao, número de outras pessoas que um indivíduo infectado vai contagiar. Um número básico de reprodução **R0 = 2** indica que uma pessoa infectada deve transmitir a doença para outras duas. Portanto, para conter uma doença é importante fazer com que **R0 < 1**, ou seja, na média a doença não se propaga mais entre pessoas. **Uma das formas de fazer isto é o isolamento social. Se você não entra em contato com ninguém, o vírus não espalha.**
 
-Os dados foram gerados pelo [Brasil.IO](https://brasil.io) através de um esforço coletivo de interpretação dos relatórios da secretária de saúde de cada estado. O método utilizado é o mesmo que o [Centre for the Mathematical Modelling of Infectious Diseases (CMMID)](https://cmmid.github.io/) faz uso [1]. Aparenta ser o estado da arte. No geral, segui a metodologia dos autores para o COVID-19, os detalhes técnicos estão abaixo.
+Os dados foram gerados pelo [Brasil.IO](https://brasil.io) através de um esforço coletivo de interpretação dos relatórios da secretária de saúde de cada estado. O método utilizado é o mesmo que o [Centre for the Mathematical Modelling of Infectious Diseases (CMMID)](https://cmmid.github.io/) faz uso [4]. Aparenta ser o estado da arte. No geral, segui a metodologia dos autores para o COVID-19, os detalhes técnicos estão abaixo.
 
 ### Vídeo Aula
 
