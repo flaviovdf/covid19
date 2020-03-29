@@ -1,6 +1,6 @@
 # Estimativas de R0 por Estados do Brasil
 
-|---------------|------------|---------|-----------|-------|--------|
+- - -
 | [CentroOeste] | [Nordeste] | [Norte] | [Sudeste] | [Sul] | [Refs] |
 - - -
 
