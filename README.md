@@ -12,7 +12,7 @@ Os dados foram gerados pelo [Brasil.IO](https://brasil.io) através de um esfor�
 
 O método utilizado é o mesmo que o [Centre for the Mathematical Modelling of Infectious Diseases (CMMID)](https://cmmid.github.io/) faz uso [1]. Aparenta ser o estado da arte. Para fazer uso do método, é necessário estimar uma distribuição de probabilidade que captura o tempo entre casos consecutivos. Isto é, a distribuição captura a probabilidade de um caso **i** infectar outro **j** em um dado intervalo de tempo **x**. Para o COVID-19, [3] sugere uma distribuição Lognormal com média 4.7 (95% CrI: 3.7, 6.0) e desvio padrão de 2.9 (95% CrI: 1.9, 4.9) dias. É importante ressaltar que outros autores sugerem o uso de outras distribuições como uma Weibull em [1] e Gamma em [4]. No futuro devo postar resultados com tais distribuições.
 
-Para entender um pouco mais sobre o R0 fiz uma vídeo aula. A mesma está abaixo.
+Para entender um pouco mais sobre o R0 fiz uma vídeo aula. A mesma está abaixo. Os primeiros minutos são suficientes.
 
 [![Vídeo Aula](https://img.youtube.com/vi/VtSz59jez-Y/0.jpg)](https://www.youtube.com/watch?v=VtSz59jez-Y)
 
