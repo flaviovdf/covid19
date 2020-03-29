@@ -123,4 +123,4 @@ Cada gráfico mostra a estimativa do R0 além de um intervalo de credibilidade d
 [Norte]: #norte
 [Sudeste]: #sudeste
 [Sul]: #sul
-[Refs]: #sul
+[Refs]: #refs
