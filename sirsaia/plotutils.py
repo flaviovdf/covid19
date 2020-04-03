@@ -33,7 +33,7 @@ def plot_result(result_df, original_df=None):
 
     mean = result_df['Mean(R)']
     x = np.arange(len(mean))
-    plt.plot(x, mean, label='R0(t) +- .95CI')
+    plt.plot(x, mean, label='R(t) +- .95CI')
 
     y_inf = result_df['Quantile.0.025(R)']
     y_sup = result_df['Quantile.0.975(R)']
@@ -49,6 +49,6 @@ def plot_result(result_df, original_df=None):
     plt.ylim((0, y_sup.max() + 0.01))
     ax.axhline(1, linestyle='--', color='grey')
     plt.legend()
-    plt.ylabel('R0(t)')
+    plt.ylabel('R(t)')
     plt.xlabel('Data - t')
     despine()

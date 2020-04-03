@@ -23,7 +23,7 @@ _config = epiestim.make_config(min_mean_si=3.7,
 
 
 def make_config(**kwargs):
-    return epiestim.make_config(kwargs)
+    return epiestim.make_config(**kwargs)
 
 
 def estimate_r(df, config=None, method='parametric_si'):
