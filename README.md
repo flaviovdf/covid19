@@ -23,6 +23,13 @@ Para fazer uso do método, é necessário estimar uma distribuição de probabil
 
 Cada gráfico mostra a estimativa do R0 além de um intervalo de credibilidade de 95%. De forma simples, interprete o intervalo como sendo uma faixa de incerteza onde podemos esperar o valor. Sendo o método Bayesiano, o mesmo captura a probabilidade a posteriori do R0 nas amostras geradas.
 
+### Limitações e Cuidados
+
+A principal limitação deste estudo é na corretude dos dados. Com poucos testes sendo feitos, é impossível afirmar os resultados atuais não devem mudar nos próximos dias. Isto é, quando novos resultados de laboratório forem aparecendo. **No momento, acredito que é sensato manter a quarentena.**
+
+Além do mais, as estimativas têm uma grande variabilidade no tempo capturando efeitos como fins de semanas, capacidade de testes, diferentes cidades. Minha estimativa é que apenas quando observamos um **R0 < 1** por várias semanas é que estaremos mais seguros.
+
+
 ## CentroOeste
 
 ### Distrito Federal
