@@ -1,6 +1,12 @@
 # Estimativas de R0 por Estados do Brasil
 
-| [CentroOeste] | [Nordeste] | [Norte] | [Sudeste] | [Sul] | [Refs] |
+1. [Brasil](#brasil)
+1. [Centro Oeste](#centro-oeste)
+1. [Nordeste](#nordeste)
+1. [Norte](#norte)
+1. [Sudeste](#sudeste)
+1. [Sul](#sul)
+    
 - - -
 
 ## Metodologia
@@ -29,8 +35,10 @@ A principal limitação deste estudo é na corretude dos dados. Com poucos teste
 
 Além do mais, as estimativas têm uma grande variabilidade no tempo capturando efeitos como fins de semanas, capacidade de testes, diferentes cidades. Minha estimativa é que apenas quando observamos um **R0 < 1** por várias semanas é que estaremos mais seguros.
 
+## Brasil
+![Brasil](plots/Brasil.png)
 
-## CentroOeste
+## Centro Oeste
 
 ### Distrito Federal
 ![Distrito Federal](plots/Centro-Oeste/DF.png)
@@ -125,9 +133,3 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 1. Nishiura H, Linton NM, Akhmetzhanov AR. Serial interval of novel coronavirus (2019-nCoV) infections. medRxiv Published Online First: 2020. doi:https://doi.org/10.1101/2020.02.03.20019497
 1. Thompson R, Stockwin J, Gaalen R van et al. Improved inference of time-varying reproduction numbers during infectious disease outbreaks. Epidemics 2019;29:100356. doi:https://doi.org/10.1016/j.epidem.2019.100356
 
-[CentroOeste]: #centrooeste
-[Nordeste]: #nordeste
-[Norte]: #norte
-[Sudeste]: #sudeste
-[Sul]: #sul
-[Refs]: #refs
