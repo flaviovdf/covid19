@@ -36,7 +36,12 @@ A principal limitação deste estudo é na corretude dos dados. Com poucos teste
 Além do mais, as estimativas têm uma grande variabilidade no tempo capturando efeitos como fins de semanas, capacidade de testes, diferentes cidades. Minha estimativa é que apenas quando observamos um **R0 < 1** por várias semanas é que estaremos mais seguros.
 
 ## Brasil
+
+### R(t) no Brasil
 ![Brasil](plots/Brasil.png)
+
+### Comparativo por Estado do último valor
+![Comparativo](plots/comparativo.png)
 
 ## Centro Oeste
 
