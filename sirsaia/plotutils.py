@@ -89,10 +89,10 @@ def plot_result(result_df, original_df=None):
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m', tz=brt))
     plt.xticks(rotation=75)
 
-    import datetime
-    datenow = datetime.datetime.now()
-    dstart = datetime.datetime(2020, 3, 1)
-    plt.xlim(dstart, datenow)
+    # import datetime
+    # datenow = datetime.datetime.now()
+    # dstart = datetime.datetime(2020, 3, 1)
+    # plt.xlim(dstart, datenow)
 
     plt.ylim((0, y_sup.max() + 0.01))
     plt.yticks(np.arange(np.ceil(y_sup.max())))
