@@ -69,7 +69,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Mato Grosso do Sul](plots/Centro-Oeste/MS.png)
 
 #### Capital
-![Mato Grosso do Sul - Campo Grande](plots/Centro-Oeste/MS-Campo Grande.png)
+![Mato Grosso do Sul - Campo Grande](plots/Centro-Oeste/MS-Campo%20Grande.png)
 
 ### Mato Grosso
 
@@ -113,7 +113,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Maranhão](plots/Nordeste/MA.png)
 
 #### Capital
-![Maranhão - São Luís](plots/Nordeste/MA-São Luís.png)
+![Maranhão - São Luís](plots/Nordeste/MA-São%20Luís.png)
 
 ### Paraíba
 
@@ -121,7 +121,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Paraíba](plots/Nordeste/PB.png)
 
 #### Capital
-![Paraíba - João Pessoa](plots/Nordeste/PB-João Pessoa.png)
+![Paraíba - João Pessoa](plots/Nordeste/PB-João%20Pessoa.png)
 
 ### Pernambuco
 
@@ -137,7 +137,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Piauí](plots/Nordeste/PI.png)
 
 #### Capital
-![Piauí - Teresina](plots/Nordeste/PI - Teresina.png)
+![Piauí - Teresina](plots/Nordeste/PI-Teresina.png)
 
 ### Rio Grande do Norte
 
