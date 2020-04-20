@@ -59,7 +59,7 @@ def plot_result(result_df, original_df=None):
                                                         pm.values[-1],
                                                         flip_date(str(x[-1]))),
                  (x[-1], mean.values[-1]),
-                 xytext=(x[-7], mean.values[-1] + 1),
+                 xytext=(x[-7], mean.values[-1] + 2),
                  fontsize=14, horizontalalignment='center',
                  arrowprops=dict(arrowstyle='fancy',
                                  color='0.5',
