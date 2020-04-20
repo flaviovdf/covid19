@@ -14,6 +14,8 @@ plt.rcParams['legend.fontsize'] = 20
 plt.rcParams['xtick.labelsize'] = 20
 plt.rcParams['ytick.labelsize'] = 20
 plt.rcParams['lines.linewidth'] = 2
+plt.rcParams['font.family'] = 'serif'
+plt.rcParams['text.usetex'] = True
 
 plt.style.use('tableau-colorblind10')
 plt.rcParams['figure.figsize'] = (12, 8)
@@ -32,10 +34,6 @@ def despine(ax=None):
 
 
 def plot_result(result_df, original_df=None):
-    def flip_date(date_txt):
-        y, m = date_txt.split('-')
-        return '/'.join([m, y])
-
     def color_mapped(y):
         return np.clip(y, .5, 1.5) - .5
 
@@ -47,29 +45,34 @@ def plot_result(result_df, original_df=None):
         np.linspace(MIDDLE, ABOVE, 25)])
 
     mean = result_df['Mean(R)']
-    x = np.arange(len(mean))
+    # x = np.arange(len(mean))
 
+    x = original_df.index[(result_df['t_end'] - 1).astype('i').values]
     plt.plot(x, mean, c='k', zorder=1, alpha=.8)
     plt.scatter(x, mean, s=80, lw=.5, c=cmap(color_mapped(mean)),
                 edgecolors='k', zorder=2)
+    ax = plt.gca()
+    ax.xaxis_date()
 
     # plt.plot(x, mean, label='R(t) +- .95CI')
 
     y_inf = result_df['Quantile.0.025(R)']
     y_sup = result_df['Quantile.0.975(R)']
 
-    lowfn = interp1d(x, y_inf, bounds_error=False, fill_value='extrapolate')
-    highfn = interp1d(x, y_sup, bounds_error=False, fill_value='extrapolate')
-    plt.fill_between(x, lowfn(x), highfn(x), color='k', alpha=0.1, lw=0,
+    xi = np.arange(len(x))
+    lowfn = interp1d(xi, y_inf, bounds_error=False, fill_value='extrapolate')
+    highfn = interp1d(xi, y_sup, bounds_error=False, fill_value='extrapolate')
+    plt.fill_between(x, lowfn(xi), highfn(xi), color='k', alpha=0.1, lw=0,
                      zorder=3)
 
-    ax = plt.gca()
-    if original_df is not None:
-        xticks = original_df.index[(result_df['t_end'] - 1).astype('i').values]
-        xticks = [flip_date(str(d)[5:10]) for d in xticks]
-        plt.xticks(np.arange(len(xticks))[::2])
-        ax.set_xticklabels(xticks[::2])
-        plt.xticks(rotation=75)
+    import pytz
+    brt = pytz.timezone('America/Sao_Paulo')
+
+    import matplotlib.dates as mdates
+    ax.xaxis.set_major_locator(mdates.WeekdayLocator(tz=brt))
+    ax.xaxis.set_minor_locator(mdates.DayLocator(tz=brt))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m', tz=brt))
+    plt.xticks(rotation=75)
 
     plt.ylim((0, y_sup.max() + 0.01))
     plt.yticks(np.arange(np.ceil(y_sup.max())))
