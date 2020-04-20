@@ -34,6 +34,11 @@ def despine(ax=None):
 
 
 def plot_result(result_df, original_df=None):
+    def flip_date(date_txt):
+        print(date_txt)
+        y, m = date_txt[:10].split('-')[1:3]
+        return '/'.join([m, y])
+
     def color_mapped(y):
         return np.clip(y, .5, 1.5) - .5
 
@@ -45,10 +50,20 @@ def plot_result(result_df, original_df=None):
         np.linspace(MIDDLE, ABOVE, 25)])
 
     mean = result_df['Mean(R)']
+    pm = (result_df['Quantile.0.975(R)'] - result_df['Quantile.0.025(R)']) / 2
     # x = np.arange(len(mean))
 
     x = original_df.index[(result_df['t_end'] - 1).astype('i').values]
     plt.plot(x, mean, c='k', zorder=1, alpha=.8)
+    plt.annotate(r'R(t) = $%.2f \pm %.2f$ no dia %s' % (mean.values[-1],
+                                                        pm.values[-1],
+                                                        flip_date(str(x[-1]))),
+                 (x[-1], mean.values[-1]),
+                 xytext=(x[-7], mean.values[-1] + 1),
+                 fontsize=14, horizontalalignment='center',
+                 arrowprops=dict(arrowstyle='fancy',
+                                 color='0.5',
+                                 shrinkB=5))
     plt.scatter(x, mean, s=80, lw=.5, c=cmap(color_mapped(mean)),
                 edgecolors='k', zorder=2)
     ax = plt.gca()
@@ -74,9 +89,14 @@ def plot_result(result_df, original_df=None):
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m', tz=brt))
     plt.xticks(rotation=75)
 
+    import datetime
+    datenow = datetime.datetime.now()
+    dstart = datetime.datetime(2020, 3, 1)
+    plt.xlim(dstart, datenow)
+
     plt.ylim((0, y_sup.max() + 0.01))
     plt.yticks(np.arange(np.ceil(y_sup.max())))
-    ax.axhline(1, linestyle='--', color='grey')
+    ax.axhline(1, linestyle='--', color='grey', zorder=4)
     # plt.legend()
     plt.ylabel(r'$R(t) \pm .95$ CI')
     plt.xlabel(r'Data - $t$')
