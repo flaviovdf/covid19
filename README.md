@@ -145,7 +145,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Rio Grande do Norte](plots/Nordeste/RN.png)
 
 #### Capital
-![Rio Grande do Norte - Natal](plots/Nordeste/RN - Natal.png)
+![Rio Grande do Norte - Natal](plots/Nordeste/RN-Natal.png)
 
 
 ### Sergipe
@@ -154,7 +154,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Sergipe](plots/Nordeste/SE.png)
 
 #### Capital
-![Sergipe - Aracaju](plots/Nordeste/SE - Aracaju.png)
+![Sergipe - Aracaju](plots/Nordeste/SE-Aracaju.png)
 
 
 ## Norte
@@ -165,7 +165,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Acre](plots/Norte/AC.png)
 
 #### Capital
-![Acre - Rio Branco](plots/Norte/AC-Rio Branco.png)
+![Acre - Rio Branco](plots/Norte/AC-Rio%20Branco.png)
 
 
 ### Amazonas
@@ -201,7 +201,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Roraima](plots/Norte/RO.png)
 
 #### Capital
-![Roraima](plots/Norte/RO-Porto Velho.png)
+![Roraima](plots/Norte/RO-Porto%20Velho.png)
 
 
 ### Tocantins
@@ -230,7 +230,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Minas Gerais](plots/Sudeste/MG.png)
 
 #### Capital
-![Minas Gerais - Belo Horizonte](plots/Sudeste/MG-Belo Horizonte.png)
+![Minas Gerais - Belo Horizonte](plots/Sudeste/MG-Belo%20Horizonte.png)
 
 ### Rio de Janeiro
 
@@ -238,7 +238,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Rio de Janeiro](plots/Sudeste/RJ.png)
 
 #### Capital
-![Rio de Janeiro - Rio de Janeiro](plots/Sudeste/RJ-Rio de Janeiro.png)
+![Rio de Janeiro - Rio de Janeiro](plots/Sudeste/RJ-Rio%20de%20Janeiro.png)
 
 
 ### São Paulo
@@ -247,7 +247,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![São Paulo](plots/Sudeste/SP.png)
 
 #### Capital
-![São Paulo](plots/Sudeste/SP-São Paulo.png)
+![São Paulo](plots/Sudeste/SP-São%20Paulo.png)
 
 
 ## Sul
@@ -267,7 +267,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Rio Grande do Sul](plots/Sul/RS.png)
 
 #### Capital
-![Rio Grande do Sul - Porto Alegre](plots/Sul/RS-Porto Alegre.png)
+![Rio Grande do Sul - Porto Alegre](plots/Sul/RS-Porto%20Alegre.png)
 
 
 ### Santa Catarina
