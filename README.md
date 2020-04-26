@@ -204,6 +204,15 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ![Roraima](plots/Norte/RO-Porto%20Velho.png)
 
 
+### Roraima
+
+#### Estado como um todo
+![Roraima](plots/Norte/RR.png)
+
+#### Capital
+![Roraima](plots/Norte/RR-Boa%20Vista.png)
+
+
 ### Tocantins
 
 #### Estado como um todo
