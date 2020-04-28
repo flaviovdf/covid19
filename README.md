@@ -49,34 +49,34 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 
 ### Distrito Federal
 
-#### Estado como um todo
+#### Estado do Distrito Federal
 ![Distrito Federal](plots/Centro-Oeste/DF.png)
 
-#### Capital
+#### Brasília (Capital)
 ![Distrito Federal - Brasília](plots/Centro-Oeste/DF-Brasília.png)
 
 ### Goiás
 
-#### Estado como um todo
+#### Estado de Goiás
 ![Goiás](plots/Centro-Oeste/GO.png)
 
-#### Capital
+#### Goiânia (Capital)
 ![Goiás - Goiânia.png](plots/Centro-Oeste/GO-Goiânia.png)
 
 ### Mato Grosso do Sul
 
-#### Estado como um todo
+#### Estado do Mato Grosso do Sul
 ![Mato Grosso do Sul](plots/Centro-Oeste/MS.png)
 
-#### Capital
+#### Campo Grande (Capital)
 ![Mato Grosso do Sul - Campo Grande](plots/Centro-Oeste/MS-Campo%20Grande.png)
 
 ### Mato Grosso
 
-#### Estado como um todo
+#### Estado do Mato Grosso
 ![Mato Grosso](plots/Centro-Oeste/MT.png)
 
-#### Capital
+#### Cuiabá (Capital)
 ![Mato Grosso do Sul - Cuiabá](plots/Centro-Oeste/MT-Cuiabá.png)
 
 
@@ -84,76 +84,76 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 
 ### Alagoas
 
-#### Estado como um todo
+#### Estado de Alagoas
 ![Alagoas](plots/Nordeste/AL.png)
 
-#### Capital
+#### Maceió (Capital)
 ![Alagoas - Maceió](plots/Nordeste/AL-Maceió.png)
 
 ### Bahia
 
-#### Estado como um todo
+#### Estado da Bahia
 ![Bahia](plots/Nordeste/BA.png)
 
-#### Capital
+#### Salvador (Capital)
 ![Bahia - Salvador](plots/Nordeste/BA-Salvador.png)
 
 ### Ceará
 
-#### Estado como um todo
+#### Estado do Ceará
 ![Ceará](plots/Nordeste/CE.png)
 
-#### Capital
+#### Fortaleza (Capital)
 ![Ceará - Fortaleza](plots/Nordeste/CE-Fortaleza.png)
 
 
 ### Maranhão
 
-#### Estado como um todo
+#### Estado do Maranhão
 ![Maranhão](plots/Nordeste/MA.png)
 
-#### Capital
+#### São Luís (Capital)
 ![Maranhão - São Luís](plots/Nordeste/MA-São%20Luís.png)
 
 ### Paraíba
 
-#### Estado como um todo
+#### Estado da Paraíba
 ![Paraíba](plots/Nordeste/PB.png)
 
-#### Capital
+#### João Pessoa (Capital)
 ![Paraíba - João Pessoa](plots/Nordeste/PB-João%20Pessoa.png)
 
 ### Pernambuco
 
-#### Estado como um todo
+#### Estado de Pernambuco
 ![Pernambuco](plots/Nordeste/PE.png)
 
-#### Capital
+#### Recife (Capital)
 ![Pernambuco - Recife](plots/Nordeste/PE-Recife.png)
 
-### Piaui
+### Piauí
 
-#### Estado como um todo
+#### Estado do Piauí
 ![Piauí](plots/Nordeste/PI.png)
 
-#### Capital
+#### Teresina (Capital)
 ![Piauí - Teresina](plots/Nordeste/PI-Teresina.png)
 
 ### Rio Grande do Norte
 
-#### Estado como um todo
+#### Estado do Rio Grande do Norte
 ![Rio Grande do Norte](plots/Nordeste/RN.png)
 
-#### Capital
+#### Natal (Capital)
 ![Rio Grande do Norte - Natal](plots/Nordeste/RN-Natal.png)
 
 
 ### Sergipe
 
-#### Estado como um todo
+#### Estado de Sergipe
 ![Sergipe](plots/Nordeste/SE.png)
 
-#### Capital
+#### Aracaju (Capital)
 ![Sergipe - Aracaju](plots/Nordeste/SE-Aracaju.png)
 
 
