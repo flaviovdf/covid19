@@ -161,64 +161,64 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 
 ### Acre
 
-#### Estado como um todo
+#### Estado do Acre
 ![Acre](plots/Norte/AC.png)
 
-#### Capital
+#### Rio Branco (Capital)
 ![Acre - Rio Branco](plots/Norte/AC-Rio%20Branco.png)
 
 
 ### Amazonas
 
-#### Estado como um todo
+#### Estado do Amazonas
 ![Amazonas](plots/Norte/AM.png)
 
-#### Capital
+#### Manaus (Capital)
 ![Amazonas - Manaus](plots/Norte/AM-Manaus.png)
 
 
 ### Amapá
 
-#### Estado como um todo
+#### Estado do Amapá
 ![Amapá](plots/Norte/AP.png)
 
-#### Capital
+#### Macapá (Capital)
 ![Amapá - Macapá](plots/Norte/AP-Macapá.png)
 
 
 ### Pará
 
-#### Estado como um todo
+#### Estado do Pará
 ![Pará](plots/Norte/PA.png)
 
-#### Capital
+#### Belém (Capital)
 ![Pará - Belém](plots/Norte/PA-Belém.png)
 
 
-### Roraima
+### Rondônia
 
-#### Estado como um todo
+#### Estado de Rondônia
 ![Roraima](plots/Norte/RO.png)
 
-#### Capital
+#### Capital (Porto Velho)
 ![Roraima](plots/Norte/RO-Porto%20Velho.png)
 
 
 ### Roraima
 
-#### Estado como um todo
+#### Estado de Roraima
 ![Roraima](plots/Norte/RR.png)
 
-#### Capital
+#### Boa Vista (Capital)
 ![Roraima](plots/Norte/RR-Boa%20Vista.png)
 
 
 ### Tocantins
 
-#### Estado como um todo
+#### Estado de Tocantins
 ![Tocantins](plots/Norte/TO.png)
 
-#### Capital
+#### Palmas (Capital)
 ![Tocantins - Palmas](plots/Norte/TO-Palmas.png)
 
 
@@ -226,36 +226,36 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 
 ### Espirito Santo
 
-#### Estado como um todo
+#### Estado do Espirito Santo
 ![Espirito Santo](plots/Sudeste/ES.png)
 
-#### Capital
+#### Vitória (Capital)
 ![Espirito Santo - Vitória](plots/Sudeste/ES-Vitória.png)
 
 
 ### Minas Gerais
 
-#### Estado como um todo
+#### Estado de Minas Gerais
 ![Minas Gerais](plots/Sudeste/MG.png)
 
-#### Capital
+#### Belo Horizonte (Capital)
 ![Minas Gerais - Belo Horizonte](plots/Sudeste/MG-Belo%20Horizonte.png)
 
 ### Rio de Janeiro
 
-#### Estado como um todo
+#### Estado do Rio de Janeiro
 ![Rio de Janeiro](plots/Sudeste/RJ.png)
 
-#### Capital
+#### Rio de Janeiro (Capital)
 ![Rio de Janeiro - Rio de Janeiro](plots/Sudeste/RJ-Rio%20de%20Janeiro.png)
 
 
 ### São Paulo
 
-#### Estado como um todo
+#### Estado de São Paulo
 ![São Paulo](plots/Sudeste/SP.png)
 
-#### Capital
+#### São Paulo (Capital)
 ![São Paulo](plots/Sudeste/SP-São%20Paulo.png)
 
 
@@ -263,28 +263,28 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 
 ### Paraná
 
-#### Estado como um todo
+#### Estado do Paraná
 ![Paraná](plots/Sul/PR.png)
 
-#### Capital
+#### Curitiba (Capital)
 ![Paraná - Curitiba](plots/Sul/PR-Curitiba.png)
 
 
 ### Rio Grande do Sul
 
-#### Estado como um todo
+#### Estado do Rio Grande do Sul
 ![Rio Grande do Sul](plots/Sul/RS.png)
 
-#### Capital
+#### Porto Alegre (Capital)
 ![Rio Grande do Sul - Porto Alegre](plots/Sul/RS-Porto%20Alegre.png)
 
 
 ### Santa Catarina
 
-#### Estado como um todo
+#### Estado de Santa Catarina
 ![Santa Catarina](plots/Sul/SC.png)
 
-#### Capital
+#### Florianópolis (Capital)
 ![Santa Catarina - Florianópolis](plots/Sul/SC-Florianópolis.png)
 
 
