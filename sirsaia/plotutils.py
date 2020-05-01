@@ -125,35 +125,46 @@ def plot_it(df, deaths=False):
 
 def plot_weekdiff(df):
 
-    df = df[['local']].resample('W-Sat').sum().copy()
-    first = df.iloc[0]
+    days = {'Sun': mdates.SU,
+            'Mon': mdates.MO,
+            'Tue': mdates.TU,
+            'Wed': mdates.WE,
+            'Thu': mdates.TH,
+            'Fri': mdates.FR,
+            'Sat': mdates.SA}
 
-    df = df.diff().copy()
-    df.iloc[0] = first
-    df = df.iloc[:-1]
+    for d, _ in days.items():
+        df_w = df[['deaths']].resample('W-{}'.format(d)).sum().copy()
+        first = df.iloc[0]
 
-    positive = df > 0
-    plt.plot(df.index, df.local, c='k', zorder=1, alpha=.8)
+        df_w = df_w.diff().copy()
+        df_w.iloc[0] = first
+        df_w = df_w.iloc[:-1]
 
-    if (~positive).sum().any():
-        plt.scatter(df[~positive].index, df[~positive].local, s=160, lw=1,
-                    edgecolors='k', zorder=2, color='g')
+        positive = df_w > 0
+        # plt.plot(df_w.index, df_w.local, c='k', zorder=1, alpha=.8)
 
-    plt.scatter(df[positive].index, df[positive].local, color='r',
-                s=160, lw=1, edgecolor='k', zorder=2)
+        if (~positive).sum().any():
+            plt.bar(df_w[~positive].index, df_w[~positive].deaths,
+                    lw=1, edgecolor='k', zorder=2, color='g')
+
+        plt.bar(df_w[positive].index, df_w[positive].deaths, color='r',
+                lw=1, edgecolor='k', zorder=2)
 
     brt = pytz.timezone('America/Sao_Paulo')
 
     ax = plt.gca()
     ax.xaxis_date(tz=brt)
-    ax.xaxis.set_major_locator(mdates.WeekdayLocator(tz=brt,
-                                                     byweekday=mdates.SA))
+    ax.xaxis.set_major_locator(mdates.WeekdayLocator(tz=brt))
     ax.xaxis.set_minor_locator(mdates.DayLocator(tz=brt))
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m', tz=brt))
     ax.axhline(0, linestyle='--', color='grey', zorder=4)
 
     # plt.ylim((0, df.values.max() + 10))
     plt.xticks(rotation=75)
-    plt.title('Diferença Entre Soma de Casos da Semana')
-    plt.ylabel('I(w) - I(w-1)')
-    plt.xlabel('Semana - w')
+    l0 = 'Por dia somamos as MORTES da semana anterior '
+    l1 = '(janela deslizante MJ(t)).\n'
+    l2 = 'O gráfico mostra a diferença entre uma janela e a anterior.'
+    plt.title(l0 + l1 + l2)
+    plt.ylabel('MJ(t) - MJ(t-1)')
+    plt.xlabel('Data - t')
