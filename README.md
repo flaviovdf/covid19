@@ -45,7 +45,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 ### Comparativo por Estado do último valor
 ![Comparativo](plots/comparativo.png)
 
-### Soma de Mortes nas últimas duas semanas por R(T)
+### Média de Mortes nas últimas duas semanas por R(t)
 ![Scatter](plots/scatter.png)
 
 ## Centro Oeste
