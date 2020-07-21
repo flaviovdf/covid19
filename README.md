@@ -52,7 +52,7 @@ Além do mais, as estimativas têm uma grande variabilidade no tempo capturando 
 
 ### Distrito Federal
 
-#### Estado do Distrito Federal
+#### Distrito Federal
 ![Distrito Federal](plots/Centro-Oeste/DF.png)
 
 #### Brasília (Capital)
